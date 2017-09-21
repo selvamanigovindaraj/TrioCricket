@@ -1,25 +1,31 @@
 body{
 	background-color:#e0e0d1;
+	font-family: 'Roboto', sans-serif;
 }
 
 header{
 	background-color:white;
+	font-size:0.85rem;
 }
 header img{
-	height:30px;
-	width:30px;
+	height:15x;
+	width:15px;
+}
+header h6{
+	font-size:.95rem;
 }
 header p{
 	margin-bottom:4px;
 }
 @media(max-width:767px){
-	header{
+	header,footer{
 		text-align:center;
 	}
 	header .col-1,.col-10,i{
 		padding-left:0px;
 		padding-right:0px;
 	}
+	
 	
 }
 
@@ -30,11 +36,11 @@ header p{
 #mycarousel span{
 	
 	border-radius:5px;
-	background-color:#b3b3b3;
+	background-color:white;
 	padding:1.25rem;
 }
 #mycarousel span:hover{
-	background-color:#66ccff;
+	background-color:#80ffaa;
 }
 
 .mobcarousel{
@@ -57,7 +63,12 @@ header p{
 		height:auto;
 	}
 }
-
+.card h4{
+	font-size:1.25rem;
+}
+.card h5{
+	font-size:1rem;
+}
 #articleSection p{
 	font-size:.85rem;
 	margin-bottom: .75rem;
