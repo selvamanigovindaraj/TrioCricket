@@ -1,14 +1,37 @@
-header .card{
-	height:230px;
+body{
+	background-color:#e0e0d1;
 }
+
+header{
+	background-color:white;
+}
+header img{
+	height:30px;
+	width:30px;
+}
+header p{
+	margin-bottom:4px;
+}
+@media(max-width:767px){
+	header{
+		text-align:center;
+	}
+	header .col-1,.col-10,i{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+}
+
 .carousel-inner,.carousel-item{
 	height:500px;
 }
+
 #mycarousel span{
 	
 	border-radius:5px;
 	background-color:#b3b3b3;
-	padding:1rem
+	padding:1.25rem;
 }
 #mycarousel span:hover{
 	background-color:#66ccff;
@@ -28,4 +51,17 @@ header .card{
 }
 .card{
 	height:400px;
+}
+@media(max-width:991px){
+	.card{
+		height:auto;
+	}
+}
+
+#articleSection p{
+	font-size:.85rem;
+	margin-bottom: .75rem;
+}
+#articleSection .card-title{
+	    margin-bottom: .5rem;
 }
