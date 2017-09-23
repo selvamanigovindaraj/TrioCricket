@@ -2,7 +2,17 @@ body{
 	background-color:#e0e0d1;
 	font-family: 'Roboto', sans-serif;
 }
+nav .btn{
+	background-color:#f3e03d;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:black;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:black;
+}
 
+}
 header{
 	background-color:white;
 	font-size:0.85rem;
@@ -17,6 +27,7 @@ header h6{
 header p{
 	margin-bottom:4px;
 }
+
 @media(max-width:767px){
 	header,footer{
 		text-align:center;
@@ -30,17 +41,21 @@ header p{
 }
 
 .carousel-inner,.carousel-item{
-	height:500px;
+	height:400px;
+}
+.carousel-caption img{
+	width:150px;
+	height:50px;
 }
 
 #mycarousel span{
 	
 	border-radius:5px;
-	background-color:white;
+	background-color:#dedede;
 	padding:1.25rem;
 }
 #mycarousel span:hover{
-	background-color:#80ffaa;
+	background-color:#5fdd7f;
 }
 
 .mobcarousel{
@@ -56,8 +71,10 @@ header p{
 	margin-top:14rem;
 }
 .card{
-	height:400px;
+	height:auto;
 }
+
+
 @media(max-width:991px){
 	.card{
 		height:auto;
@@ -69,6 +86,7 @@ header p{
 .card h5{
 	font-size:1rem;
 }
+
 #articleSection p{
 	font-size:.85rem;
 	margin-bottom: .75rem;
